@@ -1,0 +1,100 @@
+
+:root{
+   --bg:rgb(248, 250, 251);
+}
+
+
+body{
+    background-color: var(--bg);
+}
+#nav-bar{
+    background-color: black;
+    padding: 15px 100px;
+    color: white;
+    position: relative;
+}
+    #nav-left{
+        display: flex;
+    }
+        img{
+            margin-right: 50px; ;
+        }
+        
+        .options{
+            border-radius: 6px;
+            width: 116px;
+            height: 40px;
+            margin: 0 5px;
+        }
+        #active{
+            background-color: rgba(36,36,36);
+        }
+    
+    .drop-down{
+        position: absolute;
+        right: 100px;
+        top:18px
+    }
+
+#blog-coloumn{
+    float: left;
+    margin: 50px;
+    position: relative;
+    width: 30%;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+    #search{
+        position: absolute;
+        top:32px;
+        right: 20px;
+        width: 50%;
+    }
+    :where(.css-dev-only-do-not-override-xu9wm8).ant-input-affix-wrapper >input.ant-input{
+        background-color: var(--bg);
+    }
+    :where(.css-dev-only-do-not-override-xu9wm8).ant-input-affix-wrapper {
+        background-color: var(--bg);
+    }
+
+    /* #blog-list{
+        height: auto;
+        border: 1px solid saddlebrown;
+        background-color: white;
+    } */
+
+    h3{
+        margin: 0;
+        margin-top: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .post>button{
+        display: block;
+    }
+
+    .image{
+        /* float:left; */
+        width: 35%;
+        height: 70px;
+        margin: 0;
+        border-radius: 5px;
+    }
+    .details{
+        float: right;
+        width: 60%;
+    }
+    .details>p{
+        margin: 0;
+    }
+    :where(.css-dev-only-do-not-override-xu9wm8).ant-card .ant-card-body{
+        /* margin: 10px; */
+        padding: 20px;
+    }
+    :where(.css-dev-only-do-not-override-xu9wm8).ant-card {
+        margin: 10px 0;
+    }
+   
